@@ -1,13 +1,65 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+    font-family: roboto;
+    src: url("./assests/Roboto.ttf");
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+    font-family: roboto;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    font-size: 7em;
+    margin: 0;
+}
+
+h6 {
+    margin: 10px 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-items: center;
+}
+
+.main {
+    height: 15vh;
+    text-align: center;
+}
+
+#timer {
+    height: 70vh;
+}
+
+.nav-pills {
+    background-color: #EEE;
+    border-radius: 50vh !important;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.nav-link {
+    color: black;
+    border-radius: 50vh !important;
+}
+
+.nav-link:hover {
+    color: #444 !important;
+}
+
+.nav-link.active {
+    background-color: #BBB !important;
+}
+
+button {
+    border-radius: 50vw !important;
+    padding: 15px auto !important;
+    margin: 0 5px;
 }
