@@ -13,4 +13,4 @@
 </ul>
 
 <h2>Screen-shot</h2>
-<img src="./src/assests/pomodoro-timer.jpg" />
+<img src="https://raw.githubusercontent.com/PratikFandade/Pomodoro-Timer/main/src/assests/pomodoro-timer.JPG" />
